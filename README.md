@@ -55,18 +55,19 @@ Lazy Loading: For loading data only when needed in large datasets.
 Database Result Sets: To iterate over records without loading them all at once.
  
  --------------------------------------
- 5-  Traits:
- A trait in PHP is a mechanism for code reuse in single inheritance languages like PHP. Traits allow developers to reuse methods across different classes without requiring a class to extend another. They are essentially sets of methods that can be "included" in multiple classes.
+ # 5-Traits:
+ ### A trait in PHP is a mechanism for code reuse in single inheritance languages like PHP. Traits allow developers to reuse methods across different classes without requiring a class to extend another. They are essentially sets of methods that can be "included" in multiple classes.
 
-Difference from Classes and Interfaces:
-Unlike classes, traits cannot be instantiated on their own.
-Unlike interfaces, traits can contain both concrete and abstract methods.
+## Difference from Classes and Interfaces:
+### Unlike classes, traits cannot be instantiated on their own.
+### Unlike interfaces, traits can contain both concrete and abstract methods.
 -----------------------------------------
-6- Static Properties and Methods:
-Description:
-Static properties and methods in PHP belong to the class itself rather than any specific instance. This means you can access static members without creating an object of the class.
+# 6-Static Properties and Methods:
+## Description:
+### Static properties and methods in PHP belong to the class itself rather than any specific instance. This means you can access static members without creating an object of the class.
 
-Use Cases:
-Static methods and properties are useful when the functionality should be independent of an instance.
-Common examples include utility functions, counters, and settings shared across all instances.
+## Use Cases:
+### Static methods and properties are useful when the functionality should be independent of an instance.
+
+### Common examples include utility functions, counters, and settings shared across all instances.
 ----------------------------------------
